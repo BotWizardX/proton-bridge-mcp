@@ -1,0 +1,20 @@
+{
+  "state_dir": "/home/you/.local/state/proton-bridge-mcp",
+  "timezone": "UTC",
+  "profiles": {
+    "a": {
+      "username": "shared@example.com",
+      "from_name": "Example Org",
+      "signature_file": "~/.config/proton-bridge-mcp/signature-a.txt",
+      "hide_login_in_review": false,
+      "send_enabled": false,
+      "refuse_domains": []
+    },
+    "b": {
+      "username": "user@example.org",
+      "hide_login_in_review": true,
+      "send_enabled": false,
+      "refuse_domains": ["example.com"]
+    }
+  }
+}

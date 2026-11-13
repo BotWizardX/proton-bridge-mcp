@@ -1,0 +1,34 @@
+# Runtime state written by the scripts and the server. Never commit these.
+run/
+state/
+*.log
+SEND-LOG-*.md
+MAIL-CONNECTOR-LOG-*.md
+ERRORS-*.log
+TAPS-USED
+TAPS-USED.lock
+.send-pending/
+
+# Your real config and secrets
+profiles.json
+signature-*.txt
+*.gpg
+.password-store/
+*.pem
+*.key
+.env
+
+# Python and editors
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+*.bak
+*.bak-*
+*.swp
+.DS_Store
+
+# Internal review notes for this staging copy; never publish
+SCRUB-REPORT.md
